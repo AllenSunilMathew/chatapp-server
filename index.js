@@ -12,7 +12,7 @@ const io = new Server(server, {
     cors: {
         origin: [
             "http://localhost:5173",
-            "https://chat-app-front-end-khaki.vercel.app" // Your frontend URL later
+            "https://chpp12.netlify.app/" // Your frontend URL later
         ],
         methods: ["GET", "POST"]
     }
